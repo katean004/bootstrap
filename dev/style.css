@@ -1,0 +1,46 @@
+.background {
+    background-color: rgb(233, 113, 92);
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    padding: 0;
+    border: 10px solid pink;
+}
+
+#pos1 {
+    position: relative;
+    left: 100px;
+}
+
+#pos2 {
+    position: relative;
+    left: 200px;
+}
+
+#pos3 {
+    position: relative;
+    right: 700px;
+}
+
+#pos4 {
+    position: relative;
+    right: 2px;
+}
+
+.myclearfix {
+    clear:both;
+}
